@@ -4,8 +4,8 @@ import asyncio
 async def function_asyc():
     for i in range(100000):
         if i % 5000 == 0:
-            print("Hello, I'm Abhishek")
-            print("GFG is Great")
+            print("Hello, I'm Mohit")
+           
 
             # New Line Added
             await asyncio.sleep(0.01)
@@ -15,7 +15,7 @@ async def function_asyc():
 async def function_2():
     for i in range(10):
 
-        print("\n HELLO WORLD \n")
+        print("\n Byi Byi \n")
         await asyncio.sleep(0.01)
     return 0
 
